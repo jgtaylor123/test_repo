@@ -9,4 +9,4 @@ class HelloTest(unittest.TestCase):
         self.app = app.test_client()
 
     def test_root(self):
-        assert 'Hello' in self.app.get('/').data
+        assert 'Howdy' in self.app.get('/').data
