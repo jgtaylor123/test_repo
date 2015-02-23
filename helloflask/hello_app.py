@@ -5,4 +5,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello as-salamu alaykum world!'
+    return 'Hello Howdy as-salamu alaykum world!'
