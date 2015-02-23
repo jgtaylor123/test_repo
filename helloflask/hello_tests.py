@@ -8,5 +8,11 @@ class HelloTest(unittest.TestCase):
     def setUp(self):
         self.app = app.test_client()
 
-    def test_root(self):
+    def test_hello(self):
         assert 'Hello' in self.app.get('/').data
+
+    def test_world(self):
+        assert 'world' in self.app.get('/').data
+
+    def test_howdy(self):
+        assert 'howdy' in self.app.get('/').data
