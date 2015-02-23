@@ -2,4 +2,4 @@ deployment:
   prod:
     branch: master
     heroku:
-      appname: circle-hello
+      appname: pacific-retreat-2421
