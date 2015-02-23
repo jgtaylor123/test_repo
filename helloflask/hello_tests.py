@@ -15,4 +15,4 @@ class HelloTest(unittest.TestCase):
         assert 'world' in self.app.get('/').data
 
     def test_howdy(self):
-        assert 'howdy' in self.app.get('/').data
+        assert 'Howdy' in self.app.get('/').data
